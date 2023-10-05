@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char str[20]="Welcome"; 
+char str2[20];
+printf(" string 1: %s", str);
+strcpy(str2, str);
+printf("\n ** Copying string 1 to string 2 **");
+printf("\n string 2: %s", str2);
+return 1;
+} 
+
