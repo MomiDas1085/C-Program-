@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char str[ ]="How are you?"; 
+char str2[30]="Hello. ";
+printf(" string 1: %s", str);
+strcat(str2, str);
+printf("\n ** Appending string 1 to the end of string 2 **");
+printf("\n string 2: %s", str2);
+return 1;
+} 
