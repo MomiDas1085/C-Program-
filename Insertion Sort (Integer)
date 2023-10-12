@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+void Insertion_Sort(int a[ ], int n)
+{
+
+   int i, j, t;
+
+   for (i = 1; i < n; i++) 
+
+   {
+
+       t = a[i];
+
+       j = i - 1;
+
+  while (j >= 0 && a[j] > t) 
+
+       {
+
+          a[j + 1] = a[j];
+
+          j = j - 1;
+
+        }
+
+        a[j + 1] = t;
+
+    }
+}
+int main ( )
+{
+int i; 
+int a[ ]={9, 7, 5, 1, 3, 4, 8, 6, 2};
+Insertion_Sort(a, 9);
+for (i = 0; i < 9; i++) 
+printf ("%d ", a[i]);
+return 1;
+}
