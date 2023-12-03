@@ -1,0 +1,120 @@
+
+/* Program to perform various operations in C */
+
+
+#include <stdio.h>
+int main()
+{
+int a=5, b=10, c;
+
+
+printf("* Arithmetic Operators * \n");
+
+printf("a= %d,  b= %d \n", a, b) ;  
+
+printf("a+b= %d \n", a+b);
+
+printf("a-b= %d \n", a-b);
+
+printf("a*b= %d \n", a*b);
+
+printf("a/b= %d \n", a/b);
+
+printf("a%b= %d \n \n", a%b);    
+
+
+
+printf("* Unary Operators * \n");
+
+printf("++a= %d \n", ++a);  
+
+printf("--b= %d \n", --b);  
+
+printf("a++= %d \n", a++);  
+
+printf("b--= %d \n \n", b--);  
+
+
+
+printf("* Assignment Operators * \n ");
+
+printf("a=%d \n", a);
+
+c=a;
+
+printf("c=a is %d \n", c);
+
+c+=a;
+
+printf("c+=a is %d \n", c);
+
+c-=a;
+
+printf("c-=a is %d \n", c);
+
+c*=a;
+
+printf("c*=a is %d \n", c);
+
+c/=a;
+
+printf("c/=a is %d \n", c);
+
+c%=a;
+
+printf("c%=a is %d \n \n", c);
+
+
+    
+printf ("* Relational Operators * \n");
+
+printf("a=%d ,    b=%d \n", a, b);
+
+printf("a==b is %d \n" , a==b);
+
+printf("a!=b is %d \n" , a!=b);
+
+printf("a<b is %d \n" , a<b);
+
+printf("a<=b is %d \n" , a<=b);
+
+printf("a>b is %d \n" , a>b);
+
+printf("a>=b is %d \n \n" , a>=b);
+
+
+
+printf ("* Logical Operators * \n");
+
+printf("a=%d , b=%d, c=%d \n", a, b, c);
+
+printf("a>b && b>c= %d \n" , a>b&&b>c);
+
+printf("a>b||b>c= %d \n" , a>b||b>c);
+
+printf("!a= %d \n \n" , !a);
+
+
+
+printf ("* Bitwise Operators * \n");
+
+printf("a=%d ,   b=%d \n", a, b);
+
+printf("a&b=%d \n", a&b);
+
+printf("a|b=%d \n", a|b);
+
+printf("a^b=%d \n \n", a^b);
+
+
+
+printf ("* Conditional Operators * \n");
+
+printf("a=%d ,   b=%d \n", a, b);
+
+printf("a>b ? a:b = %d", a>b?a:b );
+
+
+return 1;
+
+}
