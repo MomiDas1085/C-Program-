@@ -1,0 +1,26 @@
+#include<stdio.h>  
+
+int main()   
+{
+int s=0, p=1, n;
+
+printf("Enter the number:") ;   
+ 
+scanf("%d", &n);
+
+while(n!=0)
+
+{
+s+=n%10;
+
+p*=n%10;
+
+n=n/10;
+}
+
+printf("\n Sum of digits: %d", s) ;    
+
+printf("\n Product of digits: %d", p) ;    
+
+return 1;
+}
