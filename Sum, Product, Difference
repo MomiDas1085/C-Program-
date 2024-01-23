@@ -1,0 +1,24 @@
+#include<stdio.h>  
+
+int main()   
+{
+int a, b, s, p, d;
+
+printf("Enter the numbers:") ;   
+ 
+scanf("%d  %d", &a, &b) ;  
+
+s=a+b;
+
+p=a*b;
+
+d=a-b;
+
+printf("\n Sum: %d", s) ;    
+
+printf("\n Product: %d", p) ;    
+
+printf("\n Difference: %d", d) ;    
+
+return 1;
+}
